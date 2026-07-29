@@ -2,7 +2,7 @@
 
 Google Sheets • Tableau Public • Data Cleaning • Pivot Tables • Dashboard
 
-## Project Overview
+## 📌 Project Overview
 
 This project was completed as part of the **Mate Academy Summer Digital Camp** and demonstrates the basic workflow of a data analysis project using **Google Sheets** and **Tableau Public**.
 
@@ -10,18 +10,18 @@ The project covers the complete analysis process: cleaning raw transaction data,
 
 The final dashboard provides visual insights into expense trends, commission percentages, and the distribution of transaction amounts, allowing users to analyze both overall spending and individual expense categories.
 
-## Project Links
+## 📌 Project Links
 
 - **Tableau Public Dashboard:** [View Dashboard]( https://public.tableau.com/views/DAMarathonNataliiaGnitetska-Dashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 - **Google Sheets Dataset:** [Open Dataset]( https://docs.google.com/spreadsheets/d/1DawK3I9tLwtAhJYdVyBosf9-mad5pKd6GxLYMpM8RHg/edit?usp=sharing
 )
 
-## Dashboard Preview
+## 📌 Dashboard Preview
 
 ![Dashboard]( screenshots/dashboard.png)
 
-## Dataset
+## 📌 Dataset
 
 This project uses a **sample dataset** containing **463 financial transactions** recorded between **February and June 2025**.
 
@@ -29,7 +29,7 @@ Each record represents a single banking transaction and includes information suc
 
 An additional lookup table containing **44 Merchant Category Codes (MCC)** is included in the dataset.
 
-## Technologies & Skills
+## 📌 Technologies & Skills
 
 ### Google Sheets
 
@@ -49,7 +49,7 @@ An additional lookup table containing **44 Merchant Category Codes (MCC)** is in
 - Histogram
 - Interactive Dashboard
 - Filters
-## Data Cleaning
+## 📌 Data Cleaning
 
 To ensure data quality before analysis, the dataset was cleaned by performing the following steps:
 
@@ -62,7 +62,7 @@ To ensure data quality before analysis, the dataset was cleaned by performing th
 
 Since only a few records contained data quality issues and the correct values could not be recovered, these anomalies were removed to prevent them from affecting the analysis.
 
-## Data Preparation
+## 📌 Data Preparation
 
 After cleaning the dataset, several transformations were applied to prepare the data for analysis:
 
@@ -70,7 +70,7 @@ After cleaning the dataset, several transformations were applied to prepare the 
 - Calculated the final transaction amount by converting foreign currency transactions to UAH and including transaction commissions using the **IF()** function.
 - Categorized transactions by matching **MCC** codes with a lookup table using the **VLOOKUP()** function.
 
-## Pivot Table Analysis
+## 📌 Pivot Table Analysis
 
 Two Pivot Tables were created in Google Sheets to perform an initial analysis of the transaction data.
 
@@ -84,7 +84,7 @@ Expenses were summarized by category, with transaction details added as a second
 
 The Pivot Tables provided an initial overview of spending patterns and served as the foundation for building visualizations in Tableau.
 
-## Dashboard
+## 📌 Dashboard
 
 An interactive dashboard was built in **Tableau Public** to explore spending patterns from multiple perspectives.
 
@@ -102,7 +102,7 @@ The dashboard also includes:
 
 The dashboard provides both a high-level overview of spending behavior and the ability to explore individual spending categories in greater detail.
 
-## Key Insights
+## 📌 Key Insights
 
 - Most transactions were small, with the highest number of expenses falling into the **0–400 UAH** range.
 - Spending patterns varied across categories. Some categories showed consistent spending, while others contained isolated high-value transactions.
